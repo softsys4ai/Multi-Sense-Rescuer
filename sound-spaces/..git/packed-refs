@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+f0c5db68a079743251eb0800e90857b6739f2910 refs/remotes/origin/circleci
+3768a5073fb305723676b07cb2a78b62f0d7f6c6 refs/remotes/origin/main
+05625507c6588c07ed1ccd8ec3c6218e20d14a97 refs/remotes/origin/soundspaces-challenge
+f11a36da6c8eb685ae84925907967a78c8278fd2 refs/tags/v0.1.0
+deb41f4e3ba64f9bae325c1eb091489465c1c551 refs/tags/v0.1.1
+66563626acc141a636699394c2b1731ffa685704 refs/tags/v0.1.2

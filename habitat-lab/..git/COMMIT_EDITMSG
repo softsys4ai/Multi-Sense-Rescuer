@@ -1,0 +1,21 @@
+Extend to multiple audio goals
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Author:    Chameleon Cloud User <cc@ss2-2.novalocal>
+# Date:      Thu Jun 8 01:35:21 2023 +0000
+# Committer: Kartik Singhal <kartik@Kartiks-MacBook-Pro-2.local>
+#
+# interactive rebase in progress; onto fedcfdc
+# Last commands done (2 commands done):
+#    pick 0f454f6 update version to v0.2.2 (#882)
+#    reword 4392b92 Modify nav.py
+# Next commands to do (5 remaining commands):
+#    fixup ae65543 Comment line 36
+#    fixup 53eb425 Fix major issue
+# You are currently editing a commit while rebasing branch 'main' on 'fedcfdc'.
+#
+# Changes to be committed:
+#	modified:   habitat/tasks/nav/nav.py
+#
