@@ -2,7 +2,7 @@
 
 [![website](https://img.shields.io/badge/Project-Website-blue)](https://kksinghal.github.io/multi-sense-rescuer/)
 
-Extending beyond the task of single sound source seeking, this work tackles the task of navigating to multiple-sound emitting destinations, akin to search and rescue scenarios.
+Exapnding beyond the task of single sound source seeking, this work tackles the task of navigating to multiple-sound emitting destinations, akin to search and rescue scenarios.
 This repository contains the modified version of SoundSpaces, Habitat-Sim and Habitat-Lab for supporting multi-destination navigation.
 
 ## Motivation
@@ -68,11 +68,11 @@ ln -s <dataset-folder> default
 
 ## Usage
 
-Let the maximum number of sound sources in any episode by `N`
+Let the maximum number of sound sources in any episode by `N`.
 To set the number of destinations, go the task config [file](https://github.com/softsys4ai/Multi-Sense-Rescuer/tree/main/sound-spaces/configs/audionav/av_nav) and set the DATASET.NUM_GOALS and SIMULATOR.NUM_GOALS to `N`.
 Similarly, set the [num_goals](https://github.com/softsys4ai/Multi-Sense-Rescuer/blob/2a7822664128980a28f84735f60fe2ad6ebacce4/sound-spaces/soundspaces/datasets/audionav_dataset.py#L106) property to `N`.
 
-By default, the number of sources in each episode are sampled using `Uniform(1,N)` fistribution. To fix the number of sources in each episode, comment this [line](https://github.com/softsys4ai/Multi-Sense-Rescuer/blob/2a7822664128980a28f84735f60fe2ad6ebacce4/sound-spaces/soundspaces/datasets/audionav_dataset.py#L239C2-L239C2) and uncomment [next line](https://github.com/softsys4ai/Multi-Sense-Rescuer/blob/2a7822664128980a28f84735f60fe2ad6ebacce4/sound-spaces/soundspaces/datasets/audionav_dataset.py#L240).
+By default, the number of sources in each episode is sampled using `Uniform(1,N)` distribution. To make the number of sources constant in each episode, comment this [line](https://github.com/softsys4ai/Multi-Sense-Rescuer/blob/2a7822664128980a28f84735f60fe2ad6ebacce4/sound-spaces/soundspaces/datasets/audionav_dataset.py#L239C2-L239C2) and uncomment [next line](https://github.com/softsys4ai/Multi-Sense-Rescuer/blob/2a7822664128980a28f84735f60fe2ad6ebacce4/sound-spaces/soundspaces/datasets/audionav_dataset.py#L240).
 
 Below are some example commands for training and evaluating AudioGoal with depth sensor on Replica. (From sound-spaces README)
 1. Training
